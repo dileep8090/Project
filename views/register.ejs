@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/img/icon.png">
+    <link rel="stylesheet" href="/css/style.css">
+        
+    <title>SignUp-ClassRoom</title>
+</head>
+
+<body background="/img/login-bg.jpg" style="background-size: cover;">
+    <!-- Header -->
+    <section id="header">
+        <div class="header container">
+            <div class="nav-bar">
+                <div class="brand">
+                    <a href="#hero">
+                        <h1><span>C</span>lass<span>R</span>oom</h1>
+                    </a>
+                </div>
+                <div class="nav-list">
+                    <div class="hamburger">
+                        <div class="bar"></div>
+                    </div>
+                    <ul>
+
+                        <li><a href="/login" data-after="Login">Login</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Header -->
+    
+        <div class="alert alert-danger alter-dismissable fade show" role="alert">
+    
+          <button type="button" class="close" data-dismiss="alert">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+    
+        <div class="alert alert-success alter-dismissable fade show" role="alert">
+    
+          <button type="button" class="close" data-dismiss="alert">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+    
+    <!-- Hero Section  -->
+    <section id="signup">
+        <div class="login container">
+
+
+
+            <form action = "/register"method="POST">
+                <legend>
+                    <div class="brand">
+                        <h1><span>S</span>ign<span>U</span>P</h1> <br><br>
+                    </div>
+                   
+                    <div id="email">
+                        <label for="email" class="legend">Email</label><br><br>
+                        <input type="email" name="email" class="form-control" placeholder="Enter Your Email" required><b><span
+                                class="formerror"> </span></b> <br><br>
+                    </div>
+                    <div id="first_name">
+                        <label for="first_name" class="legend">First Name</label><br><br>
+                        <input type="text" name="first_name" class="form-control" placeholder="Enter Your Name" required><b><span
+                                class="formerror"> </span></b> <br><br>
+                    </div>
+                    <div id="password">
+                        <label for="password" class="legend">Password</label> <br><br>
+                        <input type="password" name="password" class="form-control" placeholder="Enter Your Password"
+                            required><b><span class="form-control"> </span></b> <br><br>
+                    </div>
+                    <div id="cpassword">
+                        <label for="cpassword" class="legend">Confirm Password</label> <br><br>
+                        <input type="password" name="cpassword" class="form-control" placeholder="Confirm Your Password"
+                            required><b><span class="formerror"> </span></b> <br>
+                    </div>
+                    <input type="submit" value="SignUp" class="cta">
+                    <a href="/login" type="button" class="cta">Login Here</a>
+            </form>
+
+            </legend>
+
+        </div>
+    </section>
+    <!-- End Hero Section  -->
+
+    <!-- Footer -->
+    <section id="footer">
+        <div class="footer container">
+            <div class="brand">
+                <h1><span>C</span>lass<span>R</span>oom</h1>
+            </div>
+            <h2>Your Online Tutor</h2>
+            <div class="social-icon">
+                <div class="social-item">
+                    <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" /></a>
+                </div>
+                <div class="social-item">
+                    <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png" /></a>
+                </div>
+                <div class="social-item">
+                    <a href="#"><img src="https://img.icons8.com/bubbles/72/twitter-circled.png" /></a>
+                </div>
+                <div class="social-item">
+                    <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/behance.png" /></a>
+                </div>
+            </div>
+            <p>Copyright © 2021 ClassRoom. All rights reserved</p>
+        </div> 
+    </section>
+    <!-- End Footer -->
+    <script src="/js/app.js"></script>
+</body>
+
+</html>
